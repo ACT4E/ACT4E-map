@@ -1,0 +1,1 @@
+This is published to https://publish.obsidian.md/act4e-map/.
