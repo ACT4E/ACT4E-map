@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "41250b1db3c1cc63",
+        "id": "0c2559501b419691",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "howto.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
