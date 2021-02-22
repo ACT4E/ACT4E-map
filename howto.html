@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://www.kmaasrud.com/web-components/head.js"></script>
+    <script src="https://www.kmaasrud.com/web-components/katex.js"></script>
+    <script src="https://www.kmaasrud.com/web-components/highlight.js"></script>
+    <title>brain/howto</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">brain/<strong>howto</strong></div>
+        <script src="https://www.kmaasrud.com/web-components/header.js"></script>
+        <div id="content"><div id="content"><h2 id="math-support">Math support</h2>
+
+<p>We can use inline math like this:  $a^2>=2$ </p>
+
+<p>This is display math:<br />
+$$<br />
+1 + 2 + 3<br />
+$$</p>
+
+<p>This is display math with align:<br />
+$$<br />
+\begin{align}<br />
+\pi_{1}(A\times B) &amp; =A,\<br />
+\pi_{2}(A\times B) &amp; =B.<br />
+\end{align}<br />
+$$</p>
+
+<h2 id="using-preambles-locally">Using preambles (locally)</h2>
+
+<p>We can use the plugin <a href="https://github.com/xldenis/obsidian-latex/"><code>obsidian-latex</code></a> to have macros.</p>
+
+<p>Unfortunately, this only works locally, not on "publish".</p>
+
+<p>Do the macros work? $\mymacro$. </p>
+
+<p>Example use:</p>
+
+<p>$$<br />
+\begin{prooftree}<br />
+\AxiomC{$\typing[x : A, \Gamma]{M}{B}$}<br />
+\RL{(T-ABS)}<br />
+\UnaryInfC{$\typing{\lambda x. M}{A \rightarrow B}$}<br />
+\end{prooftree}<br />
+$$</p>
+
+<p>$$<br />
+\begin{prooftree}<br />
+\AxiomC{$\typing{M}{A \rightarrow B}$}<br />
+\AxiomC{$\typing{N}{A}$}<br />
+\RL{(T-APP)}<br />
+\BinaryInfC{$\typing{M~N}{B}$}<br />
+\end{prooftree}<br />
+$$</p>
+
+<p>$$<br />
+\begin{prooftree}<br />
+\AxiomC{$x : A \in \Gamma$}<br />
+\RL{(T-VAR)}<br />
+\UnaryInfC{$\typing{x}{A}$}<br />
+\end{prooftree}<br />
+$$</p>
+</div><div class="backlinks">
+
+<ul>
+<li><a href="index.html">Index</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+    <script src="https://www.kmaasrud.com/web-components/darkModeToggle.js"></script>
+</body>
+</html>
