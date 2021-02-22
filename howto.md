@@ -15,11 +15,13 @@ $$
 \end{align}
 $$
 
-## Using preambles
+## Using preambles (locally)
 
 We can use the plugin [`obsidian-latex`][plugin] to have macros.
 
 [plugin]: https://github.com/xldenis/obsidian-latex/
+
+Unfortunately, this only works locally, not on "publish".
 
 Do the macros work? $\mymacro$. 
 
